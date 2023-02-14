@@ -2,3 +2,25 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: black;
+}
+
+.list-dicas{
+    color: white;
+    list-style-type: none;
+}
+
+.list-dicas div{ 
+    height: 7vh;
+    margin: 20px;
+    border-bottom: 1px solid;
+    border-image: Linear-gradient(to right, rgba(220,169,0,1), rgba(220, 169, 0, 0.247),  rgba(220, 169, 0, 0));
+    border-image-slice: 1;
+    border-left: 5px solid #DCA900;
+}
+
+.list-dicas div li{
+    margin-left: 10px;
+}
+
