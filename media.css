@@ -1,0 +1,279 @@
+@media screen and (max-width: 1024px) {
+    .nav-list {
+        font-size: 2.5vh;
+    }
+
+    .nav-list li {
+        font-size: 2.5vh;
+    }
+
+    .intro-title {
+        font-size: 4vh;
+        margin-left: 1%;
+    }
+
+    .intro-subtitle {
+        font-size: 3.5vh;
+        margin-left: 1%;
+        max-width: 90%;
+    }
+
+    .btn-title {
+        margin-left: 1%;
+        width: 60%;
+    }
+
+    .intro-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .arrow-btn {
+        width: 38%;
+        height: 38%;
+    }
+
+    .img-guy {
+        width: 110%;
+        margin: 10% 0 0 -10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-list {
+        font-size: 2.5vh;
+    }
+
+    .intro-title {
+        font-size: 4vh;
+        margin-left: 1%;
+    }
+
+    .intro-subtitle {
+        font-size: 3.5vh;
+        margin: 5% 0 0 1%;
+        max-width: 90%;
+    }
+
+    .btn-title {
+        margin: 8% 0 0 1%;
+        width: 80%;
+        font-size: 2.8vh;
+    }
+
+    .intro-btn {
+        width: 56px;
+        height: 56px;
+        margin-top: 8%;
+    }
+
+    .arrow-btn {
+        width: 40%;
+        height: 40%;
+    }
+
+    .img-guy {
+        width: 110%;
+        margin: 10% 0 0 -10%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        font-size: 2vh;
+        margin: 2% 0 0 -16%;   
+    }
+
+    .introducao {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25vh;
+    }
+
+    .introducao-left {
+        width: 100vw;
+        z-index: 1;
+    }
+
+    .intro-title {
+        font-size: 3.4vh;
+        margin-left: 1%;
+    }
+
+    .intro-subtitle {
+        font-size: 2.8vh;
+        margin: 5% 0 0 1%;
+        max-width: 85%;
+    }
+
+    .btn-title {
+        margin: 8% 0 0 1%;
+        width: 62%;
+        font-size: 2.4vh;
+    }
+
+    .intro-btn {
+        width: 48px;
+        height: 48px;
+        margin-top: 5vh;
+    }
+
+    .arrow-btn {
+        width: 35%;
+        height: 35%;
+    }
+
+    .img-guy {
+        display: none;
+        width: 130%;
+        margin: -110% 0 0 50vw;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        font-size: 2vh;
+        margin: 2% 0 0 -18%;   
+    }
+
+    .nav-list li {
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .introducao {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30vh;
+    }
+
+    .introducao-left {
+        width: 100vw;
+    }
+
+    .intro-title {
+        font-size: 3.4vh;
+        margin-left: 1%;
+    }
+
+    .intro-subtitle {
+        font-size: 2.8vh;
+        margin-left: 1%;
+        max-width: 80%;
+    }
+
+    .btn-title {
+        margin-left: 1%;
+        width: 60%;
+        font-size: 2.2vh;
+    }
+
+    .intro-btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    .arrow-btn {
+        width: 35%;
+        height: 35%;
+    }
+
+    .img-guy {
+        display: none;
+        width: 130%;
+        margin: -110% 0 0 52vw;
+        z-index: -1;
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 1.8vh;
+        margin: 2% 0 0 -18%;   
+    }
+
+    .nav-list li {
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .introducao {
+        display: flex;
+        flex-direction: column;
+        margin-top: 26vh;
+    }
+
+    .introducao-left {
+        width: 100vw;
+    }
+
+    .intro-title {
+        font-size: 3.4vh;
+        margin-left: -2%;
+        max-width: 100%;
+    }
+
+    .intro-subtitle {
+        font-size: 2.8vh;
+        margin-left: -2%;
+        max-width: 80%;
+    }
+
+    .btn-block {
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-title {
+        margin-left: -2%;
+        width: 72%;
+        font-size: 2.4vh;
+        padding: 8px;
+    }
+
+    .intro-btn {
+        margin-bottom: 1vh;
+        width: 42px;
+        height: 42px;
+    }
+
+    .arrow-btn {
+        width: 30%;
+        height: 30%;
+    }
+
+    .img-guy {
+        display: none;
+        width: 130%;
+        margin: -110% 0 0 52vw;
+        z-index: -1;
+        opacity: 0.5;
+    }
+}
