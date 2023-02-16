@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 body{
+    background-color: black;
+}
+
+main{
     background: black;
 }
 
@@ -11,8 +16,8 @@ body{
     list-style-type: none;
 }
 
-.list-dicas div{ 
-    height: 7vh;
+.borda{ 
+    height: 11vh;
     margin: 20px;
     border-bottom: 1px solid;
     border-image: Linear-gradient(to right, rgba(220,169,0,1), rgba(220, 169, 0, 0.247),  rgba(220, 169, 0, 0));
@@ -20,7 +25,84 @@ body{
     border-left: 5px solid #DCA900;
 }
 
-.list-dicas div li{
+@media screen and (max-width:  1214px){
+    .borda{
+        height: 50%;
+    }
+    
+}
+
+.list-dicas .borda li{
+    margin-left: 10px;
+    font-family: 'Montserrat', times, serif;
+    font-weight: normal;
+}
+
+.list-dicas .borda h5{
     margin-left: 10px;
 }
 
+#titulo-motivos{
+    font-family: 'Poppins', times, serif;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Bold.ttf) format(truetype);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(fonts/Noto_Sans/NotoSans-Bold.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(fonts/Noto_Sans/NotoSans-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url(fonts/Mukta/Mukta-Bold.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url(fonts/Mukta/Mukta-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    src: url(fonts/Titillium_Web/TitilliumWeb-Light.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    src: url(fonts/Titillium_Web/TitilliumWeb-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    src: url(fonts/Titillium_Web/TitilliumWeb-Bold.ttf) format(truetype);
+    font-weight: normal;
+}
