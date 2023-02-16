@@ -1,4 +1,7 @@
 @media screen and (max-width: 1024px) {
+
+    /* nav e introducao */
+
     .nav-list {
         font-size: 2.5vh;
     }
@@ -37,9 +40,60 @@
         width: 110%;
         margin: 10% 0 0 -10%;
     }
+    
+    /*cards*/
+
+    .conteudo{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 230px);
+        justify-content: center;
+        justify-items: center;
+        padding: 30px;
+        margin-top: 15vh;
+      }
+      
+      .box-1{
+          background: rgba(0, 0, 0, 0.2);
+          outline: #A5A5A5 0.1rem solid;
+          border-radius: 20px;
+          height: 240px;
+          width: 200px;
+          display: flex;
+          align-items: center;
+          margin: 20px;
+          transition: 500ms ease-in-out;
+      }
+      
+      .cont{
+          text-align: left;
+          padding: 20px;
+          color: white;
+      }
+      
+      .sub-texto{
+          margin-top: 10px;
+      }
+      
+      .logistica{
+          margin-top: 20px;
+          font-size: 20px;
+      }
+      
+      .icon-1{
+          width: 40px;
+          color: #DCA900;
+      }
+      
+      .box-1:hover{
+          cursor: pointer;
+          background: rgba(0, 0, 0, 0.5);
+      }
 }
 
 @media screen and (max-width: 768px) {
+
+    /* nav e introducao */
+
     .nav-list {
         font-size: 2.5vh;
     }
@@ -50,15 +104,15 @@
     }
 
     .intro-subtitle {
-        font-size: 3.5vh;
+        font-size: 3vh;
         margin: 5% 0 0 1%;
-        max-width: 90%;
+        max-width: 95%;
     }
 
     .btn-title {
         margin: 8% 0 0 1%;
         width: 80%;
-        font-size: 2.8vh;
+        font-size: 3vh;
     }
 
     .intro-btn {
@@ -76,9 +130,61 @@
         width: 110%;
         margin: 10% 0 0 -10%;
     }
+
+    /*cards*/
+
+    .conteudo{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 160px);
+        grid-gap: 22px;
+        justify-content: center;
+        justify-items: center;
+        padding: 30px;
+      }
+      
+      .box-1{
+          background: rgba(0, 0, 0, 0.2);
+          outline: #A5A5A5 0.1rem solid;
+          border-radius: 20px;
+          height: 200px;
+          width: 160px;
+          display: flex;
+          align-items: center;
+          margin: 20px;
+          transition: 500ms ease-in-out;
+      }
+      
+      .cont{
+          text-align: left;
+          padding: 20px;
+          color: white;
+      }
+      
+      .sub-texto{
+          margin-top: 10px;
+          font-size: 11px;
+      }
+      
+      .logistica{
+          margin-top: 20px;
+          font-size: 20px;
+      }
+      
+      .icon-1{
+          width: 40px;
+          color: #DCA900;
+      }
+      
+      .box-1:hover{
+          cursor: pointer;
+          background: rgba(0, 0, 0, 0.5);
+      }
 }
 
 @media screen and (max-width: 425px) {
+
+    /* nav e introducao */
+
     .navbar {
         margin-top: 12px;
         display: flex;
@@ -137,9 +243,19 @@
         margin: -110% 0 0 50vw;
         z-index: -1;
     }
+
+    /* cards */
+
+    .conteudo {
+        margin-top: -30vh;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
+
+    /* nav e introducao */
+
     .navbar {
         margin-top: 12px;
         display: flex;
@@ -205,6 +321,9 @@
 }
 
 @media screen and (max-width: 320px) {
+
+    /* nav e introducao */
+
     .navbar {
         margin-top: 12px;
         display: flex;

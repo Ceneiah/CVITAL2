@@ -36,7 +36,7 @@
 @font-face {
     font-family: 'Mukta';
     src: url(fonts/Mukta/Mukta-Bold.ttf) format(truetype);
-    font-weight: normal;
+    font-weight: bold;
 }
 
 @font-face {
@@ -45,8 +45,27 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Titillium';
+    src: url(fonts/Titillium_Web/TitilliumWeb-Light.ttf) format(truetype);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    src: url(fonts/Titillium_Web/TitilliumWeb-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    src: url(fonts/Titillium_Web/TitilliumWeb-Bold.ttf) format(truetype);
+    font-weight: bold;
+}
+
 body {
     background: #2b2b2b;
+    height: 600vh;
 }
 
 /* NAVBAR */
@@ -114,8 +133,9 @@ a:hover {
 .intro-subtitle {
     color: #fff;
     font-family: 'Poppins', times, serif;
+    font-size: 3.3vh;
     font-weight: normal;
-    max-width: 70%;
+    max-width: 90%;
     text-align: justify;
 }
 
@@ -131,7 +151,7 @@ a:hover {
 }
 
 .btn-title {
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-weight: bold;
     font-family: 'Montserrat', times, serif;
     background: rgb(220, 169, 0);
@@ -160,4 +180,52 @@ a:hover {
 .img-guy {
     width: 100%; 
 }
+
+/* CARDS */
+
+  .conteudo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+  }
+  
+  .box-1{
+      background: rgba(0, 0, 0, 0.2);
+      outline: #A5A5A5 0.1rem solid;
+      border-radius: 20px;
+      height: 280px;
+      width: 240px;
+      display: flex;
+      align-items: center;
+      margin: 20px;
+      transition: 500ms ease-in-out;
+  }
+  
+  .cont{
+      text-align: left;
+      padding: 20px;
+      color: white;
+  }
+  
+  .sub-texto{
+      margin-top: 10px;
+      font-size: 14px;
+  }
+  
+  .logistica{
+      margin-top: 20px;
+      font-size: 20px;
+  }
+  
+  .icon-1{
+      width: 40px;
+      color: #DCA900;
+  }
+  
+  .box-1:hover{
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.5);
+  }
 
