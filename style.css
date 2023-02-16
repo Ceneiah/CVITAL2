@@ -1,4 +1,160 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #2B2B2B;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 1em 0;
+    font-family: sans-serif;
+  }
+  
+  .container-carrousel {
+    position: relative;
+    padding: 15px;
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    background: transparent;
+    border: none;
+    font-size: 40px; 
+    color: #C19101;
+    cursor: pointer;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 0.8;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .item{
+    margin: 15px;
+    width: 530px;
+    height: 350px;
+    padding: 30px;
+    background: #333333;
+    color: white;
+    border-radius: 20px;
+    flex: none;
+  }
+  
+  .icon svg{
+    margin-top: 20px;
+  }
+  
+  .travis{
+    width: 50px;
+    border-radius: 100px;
+  }
+  
+  .name{
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  
+  .image-name{
+    display: flex;
+    align-items: center;
+  }
+  
+  .resumo{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .casos-de-sucesso{
+    display: flex;
+  }
+
+  .texto-titulo h1{
+    width: 327px;
+    text-align: start;
+    margin: 50px 0px 0px 80px;
+    color: white;
+  }
+  
+  
+  .current-item {
+    opacity: 1;
+  }
+  
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .gallery-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .cyan {
+    background: cyan;
+  }
+  
+  .deeppink {
+    background: deeppink;
+  }
+  
+  .turquoise {
+    background: turquoise;
+  }
+  
+  .darkblue {
+    background: darkblue;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  
+
+  @media screen and (max-width:768px){
+    
+    .item {
+        width: 335px;
+        height: 324px;
+    }
+
+    .texto-titulo h1 {
+        margin: 0 auto;
+    }
+
+    .icon svg {
+        margin-top: -1px;
+    }
+
+    .resumo {
+        font-size: 15px;
+    }
+
+    .container-carrousel {
+        padding: 0px;
+      }
+}
+
+@media screen and (max-width:389px){
+    
+    .item {
+        width: 318px;
+        height: 342px;
+    }
 }
