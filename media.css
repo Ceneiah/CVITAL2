@@ -1,3 +1,41 @@
+@media screen and (max-width: 1440px) {
+    .logistica {
+        font-size: 25px;
+    }
+
+    .sub-texto {
+        font-size: 17px;
+    }
+
+    .intro-title {
+        font-size: 4vh;
+        margin-left: 1%;
+    }
+
+    .intro-subtitle {
+        font-size: 3.1vh;
+        margin: 5% 0 0 1%;
+        max-width: 95%;
+    }
+
+    .btn-title {
+        margin: 8% 0 0 1%;
+        width: 65%;
+        font-size: 3vh;
+    }
+
+    .intro-btn {
+        width: 70px;
+        height: 70px;
+        margin-top: 8%;
+    }
+
+    .arrow-btn {
+        width: 40%;
+        height: 40%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
 
     /* nav e introducao */
@@ -49,7 +87,7 @@
         justify-content: center;
         justify-items: center;
         padding: 30px;
-        margin-top: 15vh;
+        margin-top: -30vh;
       }
       
       .box-1{
@@ -72,6 +110,7 @@
       
       .sub-texto{
           margin-top: 10px;
+          font-size: 14px;
       }
       
       .logistica{
@@ -132,6 +171,10 @@
     }
 
     /*cards*/
+
+    .dicas-title {
+        margin-top: 11vh;
+    }
 
     .conteudo{
         display: grid;
@@ -246,8 +289,14 @@
 
     /* cards */
 
+    .dicas-title {
+        margin: -15vh 0 0 2vw;
+        font-size: 4.5vh;
+        white-space: nowrap;
+    }
+
     .conteudo {
-        margin-top: -30vh;
+        margin-top: 5vh;
     }
 
 }
@@ -290,9 +339,9 @@
     }
 
     .intro-subtitle {
-        font-size: 2.8vh;
+        font-size: 2.6vh;
         margin-left: 1%;
-        max-width: 80%;
+        max-width: 85%;
     }
 
     .btn-title {
@@ -360,9 +409,9 @@
     }
 
     .intro-subtitle {
-        font-size: 2.8vh;
+        font-size: 2.3vh;
         margin-left: -2%;
-        max-width: 80%;
+        max-width: 90%;
     }
 
     .btn-block {

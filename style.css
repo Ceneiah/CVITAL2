@@ -183,49 +183,68 @@ a:hover {
 
 /* CARDS */
 
-  .conteudo{
+.dicas-title {
+    font-family: 'Poppins', times, serif;
+    font-weight: bold;
+    font-size: 6vh;
+    color: #DCA900;
+    text-align: center;
+    margin: 200px;
+}
+
+.img-radial {
+    background: rgb(39,82,248);
+    background: radial-gradient(circle, rgba(39,82,248,1) 0%, rgba(43,43,43,1) 68%, rgba(43,43,43,1) 100%);
+}
+
+.conteudo{
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
     justify-content: center;
     justify-items: center;
     padding: 30px;
-  }
+    margin-top: -130px;
+}
   
-  .box-1{
-      background: rgba(0, 0, 0, 0.2);
-      outline: #A5A5A5 0.1rem solid;
-      border-radius: 20px;
-      height: 280px;
-      width: 240px;
-      display: flex;
-      align-items: center;
-      margin: 20px;
-      transition: 500ms ease-in-out;
-  }
+.box-1{
+    background: rgba(0, 0, 0, 0.2);
+    outline: #A5A5A5 0.1rem solid;
+    border-radius: 20px;
+    height: 280px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    transition: 500ms ease-in-out;
+}
+
+.cont{
+    text-align: left;
+    padding: 20px;
+    color: white;
+}
   
-  .cont{
-      text-align: left;
-      padding: 20px;
-      color: white;
-  }
+.sub-texto{
+    font-family: 'Titillium', times, serif;
+    margin-top: 10px;
+    font-size: 14px;  
+}
   
-  .sub-texto{
-      margin-top: 10px;
-      font-size: 14px;
-  }
+.logistica{
+    font-family: 'Titillium', times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2752f8;
+}
   
-  .logistica{
-      margin-top: 20px;
-      font-size: 20px;
-  }
+.icon-1{
+    width: 40px;
+    color: #DCA900;
+}
   
-  .icon-1{
-      width: 40px;
-      color: #DCA900;
-  }
-  
-  .box-1:hover{
-      cursor: pointer;
-      background: rgba(0, 0, 0, 0.5);
-  }
+.box-1:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+}
 
